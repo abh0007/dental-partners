@@ -1,0 +1,119 @@
+/* AboutUs.css */
+
+/* General page settings */
+body {
+    font-family: 'Poppins', sans-serif; /* Clean and modern font */
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc; /* Light grey background for a subtle effect */
+    color: #333; /* Text color for readability */
+  }
+  
+  /* Main container */
+  .aboutus-details {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 12px; /* Rounded corners for a modern feel */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Headings Styling */
+  .aboutus-details h1 {
+    color: #423d3b; /* Light blue for consistency and professional tone */
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .aboutus-details h2 {
+    color: #423d3b; /* Light blue for consistency and professional tone */
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Custom underline effect for h1 */
+  .aboutus-details h1::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #4b443f;
+    display: block;
+    margin: 15px auto 0;
+    border-radius: 2px;
+  }
+  
+  /* Custom underline for h2 */
+  .aboutus-details h2::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: #524e4b;
+    display: block;
+    margin: 10px auto;
+    border-radius: 2px;
+  }
+  
+  /* Paragraph Styling */
+ .aboutus-details p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555; /* Softer text color for a more polished look */
+    margin-bottom: 20px;
+    animation: fadeInUp 0.8s ease-in-out;
+  }
+  
+  /* Highlighted text sections */
+ .aboutus-details p:not(:last-child) {
+    padding-left: 15px;
+    border-left: 4px solid #474e53;
+    margin-left: 20px;
+  }
+  
+  /* Links for 'Connect with Us' */
+ .aboutus-details a {
+    color: #2a9df4;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+ .aboutus-details a:hover {
+    color: #1c75c8;
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .aboutus-details {
+      padding: 30px 15px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+  

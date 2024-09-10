@@ -1,0 +1,153 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: #eee5e5;
+  color: #2b2626;
+  position: sticky;
+  z-index: 100;
+  background-color: #e8ebee;
+  padding: 30px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/*.navbar {
+  display: none; /* Hide navbar on mobile 
+}*/
+.logo-container {
+  position: absolute;
+ 
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.logo {
+  height: 100px; /* Ensures the logo maintains its aspect ratio */
+  
+}
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 70px;
+}
+
+
+.nav-list li {
+  margin-right: 20px;
+
+}
+
+.nav-list li a {
+  color: #161212;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: #e0d2d2;
+  margin: 5px 0;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  transition: right 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.side-menu.open {
+  right: 0;
+}
+
+.side-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-menu ul li {
+  padding: 15px 20px;
+}
+
+.side-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+.side-menu ul li a:hover {
+  background-color: #444;
+}
+
+/* Show navbar and hide hamburger on larger screens */
+@media (min-width: 768px) {
+  .navbar {
+    display: block;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .side-menu {
+    display: none;
+  }
+}
+.nav-list li a:hover{
+  color: #ff5e00;
+}
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 45%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  list-style: none;
+  min-width: 250px; /* Adjusted width */
+  z-index: 1500;
+}
+
+.dropdown-menu li {
+  padding: 12px 20px; /* Add padding for better spacing */
+  border-bottom: 1px solid #eaeaea;
+}
+
+.dropdown-menu li:last-child {
+  border-bottom: none; /* Remove the last border */
+}
+
+.dropdown-menu li a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px; /* Match the font size */
+  font-weight: 500; /* Bold style for matching */
+}
+
+.dropdown-menu li a:hover {
+  color: #ff5100;
+  
+}

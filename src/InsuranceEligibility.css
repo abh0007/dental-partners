@@ -1,0 +1,184 @@
+/* src/InsuranceEligibility.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .insurance-page {
+    text-align: center;
+    padding: ;
+  }
+  
+  .insurance-section {
+    background-color: #223d5c;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .insurance-section h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .why {
+    width: 96%;
+    align-content: center;
+    text-align: left;/* Align text to the left */
+  text-indent: 0;        /* No indentation on the first line */
+  margin-left: 30px;             /* Remove any margins */
+  padding: 0;            /* Remove any padding */
+  word-wrap: break-word;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  
+  .why h3 {
+    font-size: 1.5em;
+    align-content: start;
+
+  }
+  .why h4 {
+    font-size: 1.5em;
+    font-style: bold;
+  }
+  
+  .services-id {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .service-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .service-card h3 {
+    margin: 15px 0;
+    font-size: 1.2em;
+    color: #040505;
+    padding: 0 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .insurance-content {
+    text-align: left;
+    width: 90%;
+    padding-left: 10%;
+  }
+  .insurance-content {
+    background-color: #ffffff;
+    padding: 40px 20px; /* Adds padding around the content */
+    margin: 40px 70px; /* Adds space above and below the content section */
+    border-radius: 12px; /* Smooth rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    line-height: 1.8; /* Increase line spacing for better readability */
+    color: #2c3e50; /* Dark text color for readability */
+
+  }
+  
+  .insurance-content h2 {
+    font-size: 28px;
+    color: #292a2b; /* Soft dark color for headings */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e4e8; /* Adds a bottom border for separation */
+    padding-bottom: 10px;
+    text-transform: uppercase; /* Uppercase for section titles */
+    font-weight: 700;
+  }
+  
+  .insurance-content h3 {
+    font-size: 22px;
+    color: #131516;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .insurance-content p {
+    font-size: 16px;
+    color: #555555; /* Lighter color for paragraph text */
+    margin-bottom: 20px;
+  }
+  
+  .insurance-content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .insurance-content ul {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  
+  .insurance-content li {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for blockquotes, if needed */
+  .insurance-content blockquote {
+    background-color: #f7f9fc;
+    padding: 20px;
+    border-left: 4px solid #7a9dda;
+    margin: 20px 0;
+    font-style: italic;
+    color: #34495e;
+  }
+  
+  /* Responsive adjustments for mobile devices */
+  @media (max-width: 768px) 
+    .insurance-content {
+      padding: 20px 15px;
+    }
+  
+    .insurance-content h2 {
+      font-size: 24px;
+    }
+  
+    .insurance-content h3 {
+      font-size: 20px;
+    }
+  
+    .insurance-content p {
+      font-size: 18px;
+      color: #131414;
+    }
+  
+  

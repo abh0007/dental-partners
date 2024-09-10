@@ -1,0 +1,83 @@
+/* src/components/InsuranceEligibility.css */
+
+.ITsetup-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef1f5;
+    padding: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ITsetup-section h1 {
+    color: #e5ebf1;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    background-color: #223d5c;
+    padding: 12px 690px;
+    border-radius: 10px;
+  }
+  
+  .ITsetup-id {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .ITsetup-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    text-align: center;
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .ITsetup-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .ITsetup-card h3 {
+    color: #34495e;
+    font-size: 1.3rem;
+    margin: 20px 20px;
+    padding: 0 15px;
+  }
+  
+  .ITsetup-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .IT-content {
+    background-color: #ffffff;
+    padding: 40px 20px; /* Adds padding around the content */
+    margin: 40px 70px; /* Adds space above and below the content section */
+    border-radius: 12px; /* Smooth rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    line-height: 1.8; /* Increase line spacing for better readability */
+    color: #2c3e50; /* Dark text color for readability */
+  }
+  .IT-content h2 {
+    font-size: 28px;
+    color: #292a2b; /* Soft dark color for headings */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e4e8; /* Adds a bottom border for separation */
+    padding-bottom: 10px;
+    text-transform: uppercase; /* Uppercase for section titles */
+    font-weight: 700;
+  }
+  .IT-content p {
+    font-size: 16px;
+    color: #555555; /* Lighter color for paragraph text */
+    margin-bottom: 20px;
+  }
+  .IT-why {
+    padding-left: 70px;
+    padding-right: 50px;
+  }
